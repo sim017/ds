@@ -1,0 +1,50 @@
+/
+
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* HTML ELEMENTS */
+body { font: 13px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif; color:#ccc; }
+h1 { font: bold 65px/60px Helvetica, Arial, Sans-serif; text-align: center; color: #eee; text-shadow: 0px 2px 6px #333; }
+h1 small{ font-size: 20px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; }
+h2 a { display: block; text-decoration: none; margin: 0 0 30px 0; font: italic 45px Georgia, Times, Serif;  text-align: center; color: #bfe1f1; text-shadow: 0px 2px 6px #333; }
+h2 a:hover { color: #90bcd0; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+/* WRAPPER */
+#wrapper {width: 180px;height:100px; margin:50px; }
+
+/* CONTENT */
+#content { margin-top:10px; }
+#content p { font: 120px Arial,; line-height:16px; margin:15px auto; width:800px; }
+#content p a { text-decoration:none; color:#000000; }
+#content p a:hover { text-decoration:underline; }
+
+/* PROFILES */
+h3 { font-family: 'Lato', sans-serif; color:#bfe1f1; font-size:20px; margin-top:45px; margin-bottom:15px; clear:both; }
+
+.profiles, .info { list-style:none; cursor:pointer; }
+.profiles > li { width:180px; height:150px; float:left; margin-right:50px; }
+.info, .pic { position:absolute; }
+.info { font-family: 'Lato', sans-serif; color:#fff; font-size:18px; padding:5px; background-color:rgba(55, 168, 80, 0.7); width:180px; height:190px; opacity:0; text-align:right; }
+.info a { font-weight:bold; font-size:25px; color:#fff; text-decoration:none; }
+.info a:hover { text-decoration:underline; }
+.pic { width:180px; height:200px; }
+
+
+#flip { perspective: 800px; }
+#flip .info { transition: all 0.8s; opacity:1; transform-style: preserve-3d; }
+#flip .info li { transform: rotateY(180deg); } /* Flip the text: Will be flipped back when animated */
+#flip .pic { transition: all 0.8s; backface-visibility: hidden; z-index:999; transform-style: preserve-3d; }
+#flip li:hover .info { transform: rotateY(180deg); }
+#flip li:hover .pic { transform: rotateY(180deg); }
+.details{
+	padding: 2px 0px;
+	font-color: #FF0000;
+    
+}

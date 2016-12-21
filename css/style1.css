@@ -1,0 +1,30 @@
+.shad{
+	box-shadow:15px 15px 10px #808080;
+
+margin-left: 40px;
+margin-right: 40px;
+;
+
+}
+.shads{
+	
+	
+	box-shadow:30px 30px 20px #A9A9A9;
+margin-left: 10px;
+
+margin-right: 10px;
+
+	}
+	.pad{
+	overflow: hidden;
+		padding-left: 20px;
+	}
+	img.event {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
+.bg{
+	height:1024px;
+	width:500px;
+}
